@@ -14,7 +14,7 @@
     url('../fonts/estedad/estedad.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
-html,body
+html,body 
 {
     font-family: myfont;
     direction: rtl;
