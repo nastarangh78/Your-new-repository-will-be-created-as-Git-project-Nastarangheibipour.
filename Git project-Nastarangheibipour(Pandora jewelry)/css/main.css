@@ -53,7 +53,7 @@ html,body
     text-decoration: none;
 }
 
-.menu li a:hover:not(.active) {
+.menu li a:hover:not(.active) { 
     background-color: #8999f5a2;
     color: black;
 }
