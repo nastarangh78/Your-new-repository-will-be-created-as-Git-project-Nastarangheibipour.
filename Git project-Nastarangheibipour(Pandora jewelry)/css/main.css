@@ -1,10 +1,10 @@
 *
-{
+{ 
     padding: 0;
     margin: 0;
 }
 
-@font-face {
+@font-face { 
     font-family: 'myfont';
     src: url('../fonts/estedad/estedad.eot'); /* IE9 Compat Modes */
     src: url('../fonts/estedad/estedad.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -14,25 +14,25 @@
     url('../fonts/estedad/estedad.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
-html,body
+html,body 
 {
     font-family: myfont;
     direction: rtl;
-    font-size: 14px;
+    font-size: 15px;
 }
 
-#header
+#header 
 {
     box-shadow: 0 10px 20px #112ed43f;
 }
 
 
-.menu
+.menu 
 {
     width: 50%;
     margin: 0 auto;
 }
-.menu ul {
+.menu ul { 
     list-style-type: none;
     margin: 50;
     padding: 50;
@@ -40,11 +40,11 @@ html,body
     background-color: #fff;
 }
 
-.menu li {
+.menu li { 
     float: left;
 }
 
-.menu li a {
+.menu li a { 
     display: block;
     color: #000;
     text-align: center;
@@ -53,42 +53,42 @@ html,body
     text-decoration: none;
 }
 
-.menu li a:hover:not(.active) {
+.menu li a:hover:not(.active) { 
     background-color: #8999f5a2;
     color: black;
 }
-
-.menu .active {
+ 
+.menu .active { 
     background-color: #112ed433;
     color: rgb(0, 0, 0);
 }
 
 #main
-{
+{ 
     width: 95%;
     margin: 0 auto;
 }
 
-#adv
+#adv 
 {
     padding-top: 98px;
 }
 
 #adv img
-{
+{ 
     width: 48%;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
 
 #content
-{
+{ 
     padding-top: 60px;
     min-height: 350px;
     clear: both;
 }
 
-#content .book-card
+#content .book-card 
 {
     margin-top: 30px;
     width: 200px;
@@ -99,21 +99,21 @@ html,body
     border-radius: 15px;
 }
 
-#content .book-card:hover
+#content .book-card:hover 
 {
     box-shadow: 0 50px 20px rgba(0,0,0,0.15);
 }
 
 #content .book-card img
 {
-    width: 200px;
+    width: 200px; 
     height: 200px;
     border-radius: 10px 10px 0 0;
 }
 
 
 
-#footer
+#footer 
 {
     margin-top: 40px;
     background-color: #8999f5a2;
@@ -122,7 +122,7 @@ html,body
     clear: both;
 }
 
-#footer .footer-content-1
+#footer .footer-content-1 
 {
     float: right;
     width: 40%;
@@ -130,20 +130,20 @@ html,body
     text-align: center;
 }
 
-#footer .footer-content-2
+#footer .footer-content-2 
 {
     float: right;
     width: 20%;
     padding: 30px;
 }
 
-.login-box
+.login-box 
 {
     text-align: center;
     padding-top: 20px;
 }
 
-.txt
+.txt 
 {
     border-radius: 15px;
     padding: 30px;
@@ -155,7 +155,7 @@ html,body
 }
 
 .btn
-{
+{ 
     padding: 5px 20px;
     background-color: #8999f5a2;
     color: white;
@@ -165,7 +165,7 @@ html,body
 }
 
 
-.login-box a
+.login-box a 
 {
     text-decoration: none;
     color: black;
