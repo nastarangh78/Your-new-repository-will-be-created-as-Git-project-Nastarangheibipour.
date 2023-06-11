@@ -44,7 +44,7 @@ html,body
     float: left;
 }
 
-.menu li a {
+.menu li a { 
     display: block;
     color: #000;
     text-align: center;
