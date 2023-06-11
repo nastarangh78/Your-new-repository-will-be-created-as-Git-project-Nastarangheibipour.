@@ -99,7 +99,7 @@ html,body
     border-radius: 15px;
 }
 
-#content .book-card:hover
+#content .book-card:hover 
 {
     box-shadow: 0 50px 20px rgba(0,0,0,0.15);
 }
